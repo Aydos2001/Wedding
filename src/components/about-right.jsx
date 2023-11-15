@@ -11,7 +11,7 @@ const AboutRight = () => {
             whileInView={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
             transition={{ duration: 1, delay: 1 }}
-            className='sm:h-[90%] sm:my-[5%]'>
+            className='sm:h-[84%] sm:my-[8%]'>
             <Carousel
                 loop={true}
                 autoplay={true}

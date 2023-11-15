@@ -13,7 +13,9 @@ module.exports = withMT({
       mont : "Montserrat, sans-serif",
       lobster : "Lobster, sans-serif",
       pattaya : "Pattaya, sans-serif",
-      merry : "Merriweather, sans-serif"
+      merry : "Merriweather, sans-serif",
+      dance : "Dancing Script, cursive",
+      spectral : "Spectral SC, serif;"
     },
     screens : {
       sm : "600px",
