@@ -3,6 +3,7 @@ import Home from './LayoutPages/Home'
 import Header from './LayoutPages/Header'
 import About from './LayoutPages/About'
 import { motion, useScroll } from "framer-motion"
+import Questionnaire from './LayoutPages/questionnaire'
 
 
 const Layout = () => {
@@ -11,6 +12,7 @@ const Layout = () => {
       <Header/>
       <Home/>
       <About/>
+      <Questionnaire/>
     </div>
   )
 }
