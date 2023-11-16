@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../../components/container'
-import { Button, Input, Radio } from '@material-tailwind/react'
+import { Button, Radio } from '@material-tailwind/react'
 
 const Questionnaire = () => {
     return (
