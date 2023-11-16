@@ -12,13 +12,13 @@ const Home = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 1}}
+            transition={{ duration: 1, delay : 2}}
             className={"bg-center overflow-hidden"} style={{ backgroundImage: `url(${homeBg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
             <motion.img
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 1, delay: 1 }}
+                transition={{ duration: 1, delay: 3 }}
                 src={aboutShape}
                 className='max-h-[200px] max-w-[200px] md:max-h-[250px] lg:max-w-[300px] lg:max-h-[300px] md:max-w-[250px]  hidden sm:block absolute left-0 top-[10px]' />
             <Container>

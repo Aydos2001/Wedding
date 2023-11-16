@@ -8,7 +8,7 @@ const HomeRight = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 20 }}
-      transition={{ duration: 1, delay: 1 }}
+      transition={{ duration: 1, delay: 3 }}
       className='flex justify-end' >
       <div className="pt-[40px] pr-[40px] relative">
         <div className=' border-t-[2px] border-r-[2px] border-l-[2px] p-[10px] pb-0 border-[#b0b109] absolute top-0 right-0 bottom-0 w-[90%] rounded-t-full'>

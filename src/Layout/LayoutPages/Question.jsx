@@ -1,10 +1,18 @@
-import React from 'react'
-import Container from '../../components/container'
 import { Button, Radio } from '@material-tailwind/react'
+import React, { useRef } from 'react'
+import Container from '../../components/container'
+import { motion, useInView } from 'framer-motion'
 
-const Questionnaire = () => {
+const Question = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
     return (
-        <div>
+        <motion.div
+            initial={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            exit={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            transition={{ duration: 1, delay: 1 }}
+            ref={ref}>
             <Container>
                 <div className='flex justify-center mb-[20px]'>
                     <div className='border-[1px] flex flex-col gap-[20px] p-4 max-w-[500px]'>
@@ -21,19 +29,19 @@ const Questionnaire = () => {
                         <div>
                             <p className='text-[15px] mt-2 font-mont text-[#256155] font-semibold'>Toyg'a kele alasizba</p>
                             <div className="flex  flex-col">
-                                <Radio color='teal'  name="type" label="Albette baraman" ripple={true} />
-                                <Radio color='teal'  name="type" label="Jubayim menen birge baraman" ripple={true} />
-                                <Radio color='teal'  name="type" label="Tilekke qarsi bara almayman" ripple={true} />
+                                <Radio color='teal' name="type" label="Albette baraman" ripple={true} />
+                                <Radio color='teal' name="type" label="Jubayim menen birge baraman" ripple={true} />
+                                <Radio color='teal' name="type" label="Tilekke qarsi bara almayman" ripple={true} />
                             </div>
                         </div>
                         <div className='flex justify-end'>
-                            <Button color='teal' size='sm' className='text-[15px] font-mont rounded-sm'>Jiberiw</Button>
+                            <Button color='teal' size='sm' className='text-[12px] font-mont rounded-sm'>Jiberiw</Button>
                         </div>
                     </div>
                 </div>
             </Container>
-        </div>
+        </motion.div>
     )
 }
 
-export default Questionnaire
+export default Question

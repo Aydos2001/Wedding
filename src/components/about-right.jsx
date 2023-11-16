@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import sliderImg1 from "../images/galery-6.jpg"
 import { Carousel, IconButton } from "@material-tailwind/react";
-import { motion } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 
 
 const AboutRight = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
     return (
         <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 20 }}
+            exit={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 1, delay: 1 }}
+            ref={ref}
             className='sm:h-[84%] sm:my-[8%]'>
             <Carousel
                 loop={true}
