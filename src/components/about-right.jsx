@@ -70,7 +70,7 @@ const AboutRight = () => {
                 transition={{ duration: 1 }}
                 className="rounded-md">
                 <img
-                    src={"https://media.istockphoto.com/id/1334542509/photo/elopement-wedding.jpg?s=612x612&w=0&k=20&c=NMhdtBEyfTXtRH_XxYAh5kphkeewjl2rVDGQuLIfwTs="}
+                    src={"https://images.unsplash.com/photo-1591604466107-ec97de577aff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VkZGluZyUyMGNvdXBsZXxlbnwwfHwwfHx8MA%3D%3D"}
                     alt="image 1"
                     className="h-full w-full object-cover"
                 />
@@ -81,6 +81,16 @@ const AboutRight = () => {
                 />
                 <img
                     src={"https://st3.depositphotos.com/1063633/37673/i/450/depositphotos_376734878-stock-photo-groom-leads-bride-hand-sunset.jpg"}
+                    alt="image 3"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={"https://cdn0.weddingwire.com/vendor/913853/3_2/1280/jpg/caitlin-evan-married-nathaniel-jensen-photography-omaha-nebraska-wedding-photographer-875_51_358319-163840544156074.jpeg"}
+                    alt="image 3"
+                    className="h-full w-full object-cover"
+                />
+                <img
+                    src={"https://cdn.pixabay.com/photo/2017/08/06/20/11/wedding-2595862_960_720.jpg"}
                     alt="image 3"
                     className="h-full w-full object-cover"
                 />

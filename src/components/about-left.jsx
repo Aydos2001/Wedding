@@ -39,7 +39,7 @@ const AboutLeft = () => {
                     </h3>
                     <img className='max-w-[150px] max-h-[150px]' src={oneFlower} alt="" />
                     <p className='text-[16px] md:text-[15px] lg:text-[20px] font-spectral font-bold text-[#48491d]'>Toy ku'ni</p>
-                    <p className='text-[18px] sm:text-[20px] md:text-[15px] lg:text-[20px] font-lobster text-[#806f00]'>16-mart 2023-jil</p>
+                    <p className='text-[18px] sm:text-[20px] md:text-[15px] lg:text-[20px] font-lobster text-[#806f00]'>14-dekabr 2023-jil</p>
                     <h2 className='text-[16px] mt-6 md:text-[15px] lg:text-[20px] font-spectral font-bold text-[#48491d]'>
                         Ma'ka'n Jayimiz
                     </h2>
@@ -47,7 +47,7 @@ const AboutLeft = () => {
                         <p className='text-[18px] sm:text-[20px] md:text-[15px] lg:text-[20px] font-lobster text-[#806f00] text-center'>Nokis qalasi Sultan Saray toyxanasi</p>
                         <div className='flex justify-center items-center text-indigo-400 cursor-pointer hover:underline transition duration-75'>
                             <MdLocationOn />
-                            <p className='text-center font-mont font-semibold'>kartadan ko'riw</p>
+                            <p className='text-center text-[12px] md:text-[15px] font-mont font-semibold'>kartadan ko'riw</p>
                             <IoIosArrowForward />
                         </div>
                     </div>

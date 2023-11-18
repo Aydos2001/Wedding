@@ -9,7 +9,7 @@ const Question = () => {
     return (
         <div>
             <Container>
-                <div className='flex justify-center my-[20px] gap-3 flex-col'>
+                <div className='flex justify-center mb-[20px] gap-3 flex-col'>
                     <div className='flex-[1] flex justify-center items-center'>
                         <QuestionLeft />
                     </div>
