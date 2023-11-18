@@ -5,6 +5,7 @@ import About from './LayoutPages/About'
 import { motion } from 'framer-motion'
 import { Spinner } from '@material-tailwind/react';
 import Question from './LayoutPages/Question';
+import AboutParent from './LayoutPages/AboutParent';
 
 
 
@@ -31,6 +32,7 @@ const Layout = () => {
         <Home />
         <About />
         <Question/>
+        <AboutParent/>
       </motion.div>
     </div>
 

@@ -12,7 +12,7 @@ const HomeLeft = () => {
       transition={{ duration: 1, delay: 3 }}
       className='flex justify-center items-center gap-[20px] flex-col'>
       <img src={homeShape1} className="max-w-[full] sm:max-w-[200px] md:max-w-[300px]  max-h-[100px]" />
-      <h1 className="font-pattaya text-[40px] sm:text-[35px] md:text-[45px] lg:text-[60px] text-[#1c1a40]">Marlen <span className="text-red-600">&</span> Kamila</h1>
+      <h1 className="font-pattaya text-[40px] sm:text-[35px] md:text-[45px] lg:text-[60px] text-[#1c1a40]">Marlen <span className="text-[#cd9b1b]">&</span> Kamila</h1>
       <p className='font-mont text-[20px] sm:text-[15px] md:text-[20px] text-[#1c1a40]'>16.06.2023</p>
       <img src={homeShape2} className="max-w-[full] sm:max-w-[200px] md:max-w-[300px] max-h-[100px]" />
     </motion.div>
