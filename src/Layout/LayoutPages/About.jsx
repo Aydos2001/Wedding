@@ -8,7 +8,7 @@ import aboutBg from "../../images/about-bg.jpg"
 const About = () => {
   return (
     <div 
-    className={"bg-[#ffffc3] overflow-hidden min-h-[600px] relative"}
+    className={"min-h-[600px] relative"}
     >
       <Container>
         <div className='flex my-[20px] flex-col md:flex-row gap-2'>
