@@ -47,7 +47,7 @@ const AboutLeft = () => {
                         <p className='text-[18px] sm:text-[20px] md:text-[15px] lg:text-[20px] font-lobster text-[#806f00] text-center'>Nokis qalasi Sultan Saray toyxanasi</p>
                         <div className='flex justify-center items-center text-indigo-400 cursor-pointer hover:underline transition duration-75'>
                             <MdLocationOn />
-                            <p className='text-center text-[12px] md:text-[15px] font-mont font-semibold'>kartadan ko'riw</p>
+                            <p className='text-center text-[14px] md:text-[15px] font-mont font-semibold'>kartadan ko'riw</p>
                             <IoIosArrowForward />
                         </div>
                     </div>
